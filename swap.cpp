@@ -1,13 +1,14 @@
-#include<iostream>
+#include<iostream.h>
 using namespace std;
 int main()
 {
 int a,b;
 cout<<"Enter first no.";
-cin>>a=5;
+cin>>a;
 cout<<"Enter second no.";
-cin>>b=10;
-cout<<swap<<"a"<<b<<"b"<<a;
+cin>>b;
+cout<<"Before swapping:a="<<"a"<<"b= "<<"b"<<endl;
 swap(a,b);
+cout<<"After swapping:a="<<"a"<<"b="<<"b"<<end l;
 return 0;
 }
