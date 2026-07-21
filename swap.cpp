@@ -9,6 +9,6 @@ cout<<"Enter second no.";
 cin>>b;
 cout<<"Before swapping:a="<<"a"<<"b= "<<"b"<<endl;
 swap(a,b);
-cout<<"After swapping:a="<<"a"<<"b="<<"b"<<end l;
+cout<<"After swapping:a="<<"a"<<"b="<<"b"<<endl;
 return 0;
 }
