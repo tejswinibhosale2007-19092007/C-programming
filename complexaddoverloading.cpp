@@ -11,14 +11,12 @@ public:
         real = r;
         imag = i;
     }
-
     Complex operator + (const Complex& obj) {
         Complex temp;
         temp.real = real + obj.real; 
         temp.imag = imag + obj.imag; 
         return temp;
     }
-
     void display() const {
         if (imag >= 0)
             cout << real << " + " << imag << "i" << endl;
@@ -26,7 +24,6 @@ public:
             cout << real << " - " << -imag << "i" << endl; 
     }
 };
-
 int main() {
     
     Complex c1(10, 5);
